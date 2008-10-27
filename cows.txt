@@ -1,0 +1,74 @@
+Notes
+=====
+
+# unit of weight: pounds
+# unit of distance: feet
+
+# sonic_average_burgers_per_day_per_restaurant = 470
+# us_burger_sales_per_day= 4,200,000
+# nytimes per_day = 400
+
+
+Variables
+=========
+
+cow_weight = 880
+
+cow_length = 6
+
+human_weight = 150
+
+human_length = 1
+
+inedible_percentage_of_carcass = 0.65
+
+quarter_pounder_weight = 0.25
+
+mcdonalds_restaraunts_in_the_world = 31000
+
+burger_sales_per_day = 300
+
+hours_in_a_day = 24
+
+space_between_each_animal = 1
+
+feet_per_mile
+
+
+Calculations
+============
+
+edible_cow_carcass_weight = cow_weight * inedible_percentage_of_carcass # (308)
+
+quarter_pounders_per_cow = edible_cow_carcass_weight / quarter_pounder_weight # (1232)
+
+cows_per_restaurant_per_day = burger_sales_per_day / quarter_pounders_per_cow # (0.24)
+
+cows_worldwide_per_day = mcdonalds_restaraunts_in_the_world * cows_per_restaurant_per_day # (7440)
+
+cows_worldwide_per_hour = cows_worldwide_per_day / hours_in_a_day # (310)
+
+length_of_hourlong_singlefile_line_of_cows = (cow_length + space_between_each_animal) * cows_worldwide_per_hour # (2170)
+
+cow_speed_in_miles_per_hour = length_of_hourlong_singlefile_line_of_cows / feet_per_mile # (0.4)
+
+
+edible_human_carcass_weight = human_weight * inedible_percentage_of_carcass # (212)
+
+quarter_pounders_per_human = edible_human_carcass_weight / quarter_pounder_weight # (53)
+
+humans_per_restaurant_per_day = burger_sales_per_day / quarter_pounders_per_human # (6)
+
+humans_worldwide_per_day = mcdonalds_restaraunts_in_the_world * humans_per_restaurant_per_day # (18600)
+
+humans_worldwide_per_hour = humans_worldwide_per_day / hours_in_a_day # (7750)
+
+length_of_hourlong_singlefile_line_of_humans = (human_length + space_between_each_animal) * humans_worldwide_per_hour # (1550)
+
+human_speed_in_miles_per_hour = length_of_hourlong_singlefile_line_of_humans / feet_per_mile # (3)
+
+
+
+
+
+
