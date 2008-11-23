@@ -1,0 +1,8 @@
+<ul class="iconed">
+  <li class="delicious"><a href="http://delicious.com/sikelianos">Delicious</a></li>
+  <li class="flickr"><a href="http://flickr.com/sikelianos">Flickr</a></li>
+  <li class="github"><a href="http://github.com/zeke">Github</a></li>
+  <li class="lastfm"><a href="http://last.fm/user/sikelianos">Last.fm</a></li>  
+  <li class="twitter"><a href="http://twitter.com/zeke">Twitter</a></li>
+  <li class="queriac"><a href="http://queri.ac/zeke">Queriac</a></li>
+</ul>
