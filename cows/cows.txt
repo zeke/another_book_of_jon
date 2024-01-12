@@ -1,9 +1,12 @@
+It was an attempt to estimate how fast a line of cows would need to march off a cliff into a hypothetical McDonald’s meat grinder to keep a steady supply of quarter pounders on hand.
+
+This was my favorite thing to do with my dad. Ponder something ridiculous. Propose an absurd and usually somewhat dark idea, discuss for days, estimate, research, extrapolate, calculate.
+
 Notes
 =====
 
 # unit of weight: pounds
 # unit of distance: feet
-
 # sonic_average_burgers_per_day_per_restaurant = 470
 # us_burger_sales_per_day= 4,200,000
 # nytimes per_day = 400
@@ -32,7 +35,7 @@ hours_in_a_day = 24
 
 space_between_each_animal = 1
 
-feet_per_mile
+feet_per_mile = 5280
 
 
 Calculations
@@ -51,7 +54,6 @@ cows_worldwide_per_hour = cows_worldwide_per_day / hours_in_a_day # (310)
 length_of_hourlong_singlefile_line_of_cows = (cow_length + space_between_each_animal) * cows_worldwide_per_hour # (2170)
 
 cow_speed_in_miles_per_hour = length_of_hourlong_singlefile_line_of_cows / feet_per_mile # (0.4)
-
 
 edible_human_carcass_weight = human_weight * inedible_percentage_of_carcass # (212)
 
